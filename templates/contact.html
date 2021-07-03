@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+  <title>Mental Health </title>
+  <link rel="stylesheet" href="../static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/style1.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
+
+
+
+  <!-- Favicons -->
+  <link href="static/img/179823760923164672_n-copy-1.png" rel="icon">
+  <link href="static/img/179823760923164672_n-copy-1.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/owl.carousel/static/owl.carousel.min.css" rel="stylesheet">
+  <link href="static/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- <link rel="stylesheet" href="../static/css/style.css">  -->
+  <script src="js/modernizr.js"></script>
+
+
+</head>
+<body>
+
+
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="http://127.0.0.1:5000">Mental Health Prediction in Employee</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="static/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="{{url_for('home')}}">About</a></li>
+          <li><a href="{{url_for('home')}}">Visualization</a></li>
+          <li><a href="{{url_for('home')}}">Conclusion</a></li>
+          <li><a href="{{url_for('home')}}">Dataset</a></li>
+          <li><a href="{{url_for('home')}}">Prediction</a></li>
+          <li><a href="{{ url_for('contact')}}">Contact Us </a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+
+
+
+
+
+
+
+
+
+<br>
+
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+
+
+<div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          
+          
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+               <form action="{{url_for('submit_form')}}" method="POST" class="reveal-content">
+                  <div class="row">
+                    <div class="col-md-7">
+                      <div class="form-group">
+                        <input name="username" type="text" class="form-control" id="name" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                        <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject">
+                      </div>
+                      <div class="form-group">
+                        <textarea name="message"class="form-control" rows="3" style="width: 100%; max-width: 100%;" placeholder="Enter your message"></textarea>
+                      </div>
+
+
+                      <div>
+
+                      <button type="submit" class="btn btn-default btn-lg">Send</button>
+                    </div>
+
+
+                    
+                    <div class="col-md-5 address-container">
+                      <ul class="list-unstyled">
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                          </span>
+                        <a href="tel:998386323">+91 9948386323 </a>  
+                        </li>
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa-at" aria-hidden="true"></i>
+                          </span>
+                          
+                          <a href="mailto:no.reply.healthpredictor@gmail.com?subject=HTML link">no.reply.healthpredictor@gmail.com</a>
+                        </li>
+                        <li>
+                          <span class="fa-icon">
+                            <i class="fa fa fa-map-marker" aria-hidden="true"></i>
+                          </span>
+                         79  Hyderabad , Telangana
+                        </li>
+                      </ul>
+                      <h3>Follow us on social networks</h3>
+                      
+                      <a href="https://www.linkedin.com/in/anil-k-rajamoni-0ba063183/"  title="" class="fa-icon">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                     
+                      <a href="https://github.com/anil-k-rajamoni18" title="" class="fa-icon">
+                        <i class="fa fa-github"></i>
+                      </a>
+                      <a href="https://www.instagram.com/anilkrajamoni96/" title="" class="fa-icon">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                     
+                     
+
+                    </div>
+                  </div>
+                </form>
+            </div>
+
+          </div>
+         
+       </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<footer class="footer clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-6 footer-para">
+          <p><center>&copy;Osmania's All right reserved</center></p>
+        </div>
+        <div class="col-xs-6 text-right">
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-twitter"></i></a>
+          <a href=""><i class="fa fa-skype"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- script tags
+  ============================================================= -->
+  <script src="../static/js/jquery-2.1.1.js"></script>
+  <script src="../static/js/smoothscroll.js"></script>
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script src="../static/js/custom.js"></script>
+  <script type="text/javascript" src="../staticstatic/js/main.70a66962.js"></script>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+ Ashwini ,alllamashwinikumari@gmail.com,Female,Get Treatment,0.9366865862666572
+ Ashwini ,allamashwinikumari@gmail.com,Female,Get Treatment,0.9366865862666572
+ Pranavi K  ,pranavikuncham1999@gmail.com,Female,Get Treatment,0.9366865862666572
+ enola holmes ,enolaholmes96@gmail.com,Male,Get Treatment,0.7895475987685625
+ pranavi ,kunchampranavi1999@gmail.com,Female,Get Treatment,0.8575497243852185
+ pranavi ,kunchampranavi1999@gmail.com,Female,Get Treatment,0.8575497243852185
+ Pranavi ,kuchampranavi1999@gmail.com,Female,Get Treatment,0.9600379653717512
+ Pranavi ,kunchampranavi1999@gmail.com,Female,Get Treatment,0.8866227529887497
+ Pranavi ,kunchampranavi1999@gmail.com,Female,Get No Treatment,0.3728143405446677
+ DivyaBaniSetty ,banisettydivya09@gmail.com,Female,Get No Treatment,0.3237957104832272
+ Pranavi ,kunchampranavi1999@gmail.com,Female,Get No Treatment,0.5358933288664165
+ Enola ,enolaholmes96@gmail.com,Male,Get Treatment,0.860827024088498
+ Enola ,enolaholmes96@gmail.com,Male,Get No Treatment,0.6419120851031088
+ Enola ,enolaholmes96@gmail.com,Male,Get No Treatment,0.6419120851031088
+ Test ,enolaholmes96@gmail.com,Male,Get No Treatment,0.6419120851031088
